@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cairo&family=Open+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@500&family=Roboto:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #131313;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+}
+
+header {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #131313;
+}
+
+.logo i {
+    font-size: 30px;
+    color: white;
+}
+
+.right-sec {
+    display: flex;
+
+}
+
+.nav-link {
+    padding: 10px 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #D47E6C;
+}
+
+.nav-link a:hover {
+    color: #D47E6C;
+}
+
+.nav-link i {
+    color: gray;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+
+}
+
+.main-img img {
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.main-header i {
+    font-size: 50px;
+    color: white;
+    margin-right: 30px;
+}
+
+.main-header h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.typography {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-repeat: repeat;
+    padding-bottom: 30px;
+    line-height: 90px;
+
+}
+
+.typo {
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.courses-sec {
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-header {
+    font-size: 1.8rem;
+    padding: 70px 2px;
+    text-align: center;
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 66%;
+    height: 60vh;
+
+}
+
+.courses-container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.course h2 {
+    color: white;
+    font-weight: 800;
+}
+
+.course p {
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.courses-container img {
+    width: 500px;
+}
+
+.bot-sec {
+    width: 100%;
+    height: 100vh;
+}
+
+.bot-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 300px;
+}
+
+.pic-txt {
+    display: flex;
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.pic-txt img {
+    margin-right: 30px;
+    width: 38%;
+}
+
+.pic-txt h3 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.pic-txt p {
+    font-size: 16px;
+}
+
+.footer {
+    width: 100%;
+    height: 35vh;
+    background-color: #242424;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 300px;
+}
+
+.fot-left-sec h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.left-icons {
+    display: flex;
+
+    padding: 10px 10px;
+    color: white;
+}
+
+.left-icons i {
+    padding-right: 20px;
+}
+
+.fot-mid-sec {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fot-mid-sec h2 {
+    color: #919191;
+    font-size: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.fot-right-sec {
+    display: flex;
+    flex-direction: column
+}
+
+#cr {
+    padding-bottom: 10px;
+    font-weight: 500;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-repeat: repeat;
+
+
+}
